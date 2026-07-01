@@ -1,12 +1,35 @@
-# Grocery-Projekt
+# Global Grocery Sales Dashboard
 
-Welcome to my project!
-The objective of this project is to understand a large amount of sales data and explore it.
+## Ziel
+Ziel dieses Projekts ist es, einen datenbasierten Überblick 
+über die Verkaufsleistung eines weltweiten 
+Lebensmitteleinzelhändlers zu gewinnen.
 
-To get started, please download the data from the following link: https://drive.google.com/drive/folders/1FGmWxUWhRkL9FuOzW63U5Baf3tNkuy2z?usp=drive_link
+## Technischer Aufbau
+Die Rohdaten wurden als CSV-Dateien in eine PostgreSQL-Datenbank 
+importiert und in DBeaver bereinigt. Anschließend wurde eine 
+View mit den relevanten Kennzahlen erstellt, die als 
+Datenquelle für das Power BI Dashboard dient.
 
-Using PostgreSQL, perform the initial data transformation and cleaning. Afterwards, connect the Grocery_Project.pbit file with the data in PostgreSQL to explore the full interactive analysis.
+## Dashboard — 3 Seiten
+Auf allen Seiten können die Daten nach Monatsname, Stadt 
+und Produktkategorie gefiltert werden.
 
-A PDF version of the project is also available for a non-interactive overview.
+**Seite 1 — Übersicht**
+Kennzahlen zu Umsatz, Wachstum, Preis, Menge, 
+Produkten, Kategorien und Städten.
 
-Thank you!
+**Seite 2 — Portfolio-Analyse**
+Menge-Preis-Matrix zur Klassifizierung von Produkten 
+in Umsatzträger, Marginalprodukte, Nischenprodukte 
+und Massenprodukte.
+
+**Seite 3 — Zeitreihenanalyse**
+Täglicher Umsatz mit prozentualem Wachstum, 
+geografische Umsatzverteilung auf einer Landkarte 
+sowie Umsatzverteilung nach Tagesstunde.
+
+## Dateien
+- Power BI Dashboard → https://drive.google.com/drive/folders/1BAN0t8JziMcgUC-dsnbPmX1BGPxelMgE?usp=drive_link
+- SQL-Skripte  → im Repository verfügbar
+- Rohdaten → https://drive.google.com/drive/folders/1FGmWxUWhRkL9FuOzW63U5Baf3tNkuy2z?usp=drive_link
