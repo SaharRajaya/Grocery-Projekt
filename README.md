@@ -1,4 +1,4 @@
-# Global Grocery Sales Dashboard
+# Grocery Sales Dashboard
 
 ## Ziel
 Ziel dieses Projekts ist es, einen datenbasierten Überblick 
