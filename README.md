@@ -2,7 +2,7 @@
 
 ## Ziel
 Ziel dieses Projekts ist es, einen datenbasierten Überblick 
-über die Verkaufsleistung eines weltweiten 
+über die Verkaufsleistung eines 
 Lebensmitteleinzelhändlers zu gewinnen.
 
 ## Technischer Aufbau
