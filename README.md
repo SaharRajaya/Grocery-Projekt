@@ -16,8 +16,7 @@ Auf allen Seiten können die Daten nach Monatsname, Stadt
 und Produktkategorie gefiltert werden.
 
 **Seite 1 — Übersicht**
-Kennzahlen zu Umsatz, Wachstum, Preis, Menge, 
-Produkten, Kategorien und Städten.
+Überblick über die Gesamtdaten
 
 **Seite 2 — Portfolio-Analyse**
 Menge-Preis-Matrix zur Klassifizierung von Produkten 
